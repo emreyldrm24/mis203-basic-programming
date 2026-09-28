@@ -18,8 +18,8 @@ Course repository for in-class assignments.
 ## Week 03
 
 - **AI Tool Used:** OpenAI Codex
-- **Prompt Used:** "ödevi yapar mısınm" (I attached the GitHub 3 assignment screenshots with this prompt.)
-- **What did you change?** With AI assistance, I added `week03/ticket_office.py` to validate customer information, apply one ticket discount, and print sales totals. The program accepts upper- or lowercase answers for the quit command, day, and student status.
+- **Prompt Used:** "Review my ticket office program against the attached GitHub 3 assignment. Check my use of while True, break, continue, input validation, the one-discount rule, and the required rule order. Test it with the sample data and age boundaries. Explain any mistake before suggesting a correction so I can understand and make the change."
+- **What did you change?** I added `week03/ticket_office.py` to validate customer information, apply one ticket discount, and print sales totals. The program accepts upper- or lowercase answers for the quit command, day, and student status.
 - **Tests:**
   1. Input: the six customers from the example (Ali, Zeynep, Can, Elif, Deniz, and Mert). Result: `Tickets sold: 6`, `Total revenue: 810.00 TRY`, `Average price: 135.00 TRY`, and `Free tickets: 1`.
   2. Input: `Ece`, age `6`, `weekday`, student `yes`. Result: `Ece: 120.00 TRY (Child)`. This tests the boundary where the Child discount begins.
